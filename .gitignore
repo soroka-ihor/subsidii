@@ -1,0 +1,7 @@
+/.idea
+/target
+target/
+parseapi/target
+repoapi/target
+subsidii.iml
+*.xml
