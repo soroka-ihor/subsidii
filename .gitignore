@@ -4,4 +4,4 @@ target/
 parseapi/target
 repoapi/target
 subsidii.iml
-*.xml
+.gitignore
