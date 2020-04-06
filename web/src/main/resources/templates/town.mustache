@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <div>
+            <div>
+                Список городов:
+                {{#towns}}
+                    <div>
+                     {{id}}: <i> {{name}}</i>
+                    </div>
+                {{/towns}}
+            </div>
+            <div>
+                <form method="post">
+                    <input type="text" name="name" placeholder="Input town's name"/>
+                    <button type="submit">Add</button>
+                </form>
+                <form method="post" action="filter">
+                    <input type="text" name="filter" placeholder="Input filter's name"/>
+                    <button type="submit">Find</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
