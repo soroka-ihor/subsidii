@@ -13,6 +13,14 @@ public class Street implements Serializable {
     @Column(name = "name")
     private String name;
 
+    public Street() {
+
+    }
+
+    public Street(String name) {
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

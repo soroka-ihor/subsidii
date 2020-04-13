@@ -19,6 +19,15 @@ public class Bank implements Serializable {
     @Column(name = "name")
     private String name;
 
+    public Bank() {
+
+    }
+    public Bank(int mfo, int edrpou, String name) {
+        this.mfo = mfo;
+        this.edrpou = edrpou;
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }
